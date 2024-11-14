@@ -12,3 +12,9 @@ Nuvem Híbrida:Uma junção de pública e privada, na qual pode ocorrer uma comu
 CAPex: Pagamento prévio por Hardwares, no qual o gasto tende a reduzir com o tempo.
 
 OPex:Pagamento poe consumo do que for usado, sem a necessidade de um pagamento prévio.
+
+## Entrega do desafio - Criando máquinas Virtuais na Azure
+
+Como entrega foi solicitado um resumo sobre o que foi aprendido até o momento, então posso resumir que fui apresentada ao tema de Alta disponibilidade, o que envolve o termo SLA, que é o quão disponível aquele recurso deve funcionar, e a partir das horas/minutos ou segundos fora do que foi combinado em contrato, a empresa provedora (Microsoft) se dispoe de um credito ao seu cliente pelo tempo de não funcionamento do serviço.
+Quanto maior o SLA, maior a porcentagem (99,9%), menos ele deve ficar indisponível ao usuário. Isso gera um custo, claro, então é necessário entender o quanto você precisa desta escalabilidade, para acionar o SLA correto para sua funcionalidade.
+Entendi outros pontos, como Segurança, Disponibilidade, Gerenciabilidade e Governança
