@@ -18,3 +18,9 @@ OPex:Pagamento poe consumo do que for usado, sem a necessidade de um pagamento p
 Como entrega foi solicitado um resumo sobre o que foi aprendido até o momento, então posso resumir que fui apresentada ao tema de Alta disponibilidade, o que envolve o termo SLA, que é o quão disponível aquele recurso deve funcionar, e a partir das horas/minutos ou segundos fora do que foi combinado em contrato, a empresa provedora (Microsoft) se dispoe de um credito ao seu cliente pelo tempo de não funcionamento do serviço.
 Quanto maior o SLA, maior a porcentagem (99,9%), menos ele deve ficar indisponível ao usuário. Isso gera um custo, claro, então é necessário entender o quanto você precisa desta escalabilidade, para acionar o SLA correto para sua funcionalidade.
 Entendi outros pontos, como Segurança, Disponibilidade, Gerenciabilidade e Governança
+
+## Tipos de Serviço de Nuvem
+
+IaaS (Azure Virtual Machines) oferece a infraestrutura virtual.
+PaaS (Azure App Service) fornece uma plataforma de desenvolvimento para aplicativos.
+SaaS (Microsoft 365) disponibiliza aplicativos prontos para o uso direto.
