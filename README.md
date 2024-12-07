@@ -24,3 +24,9 @@ Entendi outros pontos, como Segurança, Disponibilidade, Gerenciabilidade e Gove
 IaaS (Azure Virtual Machines) oferece a infraestrutura virtual.
 PaaS (Azure App Service) fornece uma plataforma de desenvolvimento para aplicativos.
 SaaS (Microsoft 365) disponibiliza aplicativos prontos para o uso direto.
+
+## Entrega do desafio - Construindo Arquiteturas no Azure
+
+Nestas ultimas aulas, aprofundei meus conhecimentos a respeeito de Regiões de Disponibilidade, e o quanto elas influenciam após escolhidas no custo do projeto, como também na sua latência e delay, principalmente se a area escolhida para alocar o serviço for longe da localização da minha empresa, e de quem irá acessar estes recursos.
+
+Vi também a respeitos de que uma conta pode ter varias assinaturas, porém estas assinaturas devem pertencer apenas a uma conta. Por isso, as assinaturas de produção, testes e até desenvolvimento são de posse de uma conta, e as mesmas só podem pertencer a ela. Vi a respeito do Grupo de recursos, no qual serve para organizar projetos, máquinas, servidores, redes etc. Você pode escolher a forma como ira organizar estes recursos dentro de um grupo, porém este Grupo deve possuir um nome que não será mais alterado (PAI), e seus recusos se necessários podem ser realocados ou não a outros Grupos de Recurso. Aplicativos podem pertencem a mais de um Grupo, mas recursos não. Outro ponto importante é que meu grupo de recurso pode ser de uma localidade, e meus recursos criados dentro dele de outras regiões do mundo.
