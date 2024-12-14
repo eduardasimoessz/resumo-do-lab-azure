@@ -33,3 +33,23 @@ Vi também a respeitos de que uma conta pode ter varias assinaturas, porém esta
 
 ## Entrega do Desafio - Configurando Recursos e Dimensionamentos em Máquinas Virtuais na Azure
 Este breve resumo posso dizer que consegui entender de forma prática, após muitas teorias a respeito do laboratório da Azure, como funciona a criação de recursos, como uma VNET, Máquinas Virtuais, entre outros. Importante se atentar aos detalhes de custo, região, backup, ativação e desligamento automático, além da escolha do SO correto, e memória certa para o que este servidor ou máquina for atuar.
+
+## Entrega do Desafio - Dominando o Armazenamento na Azure
+Neste módulo lidei ainda mais com a questão de armazenamento e migração do Azure. É sempre importante se atentar a quais tipos de migração são interessantes para o seu cliente/empresa.
+
+Contas de Armazenamento: Ter um nome exclusivo globalmente. São elas que determinam os serviços de armazenamento e as opções de redundância
+
+Azure data box: Até 80T
+Azure data disk: 35T
+Azure Heavy: 800T
+
+Blobs: Dados massivos não estruturados:
+Disco: Discos para máquinas virtuais
+Filas: Armazenamento de mensagens e recuperação. Cada uma com até 64kb
+Arquivos: Compartilhamento de arquivos de rede altamente disponíveis
+Tabelas: Fornece uma opção de chave/atributo para o armazenamento de dados não estruturados com um design sem esquema
+
+AZ-Copy: Faz a cópia de arquivos locais para o Ambiente de Nuvem da Azure. Sincronização em uma direção.
+Gerenciador de armazenamento Azure: Interface Gráfica Intuitiva para o usuário (MacOS, Linus e Windows)
+Sincronização de Arquivos do Azure: Sincronização de forma Bilateral, ou seja, ele pode ser configurado para enviar arquivos menos acessados para a nuvem, deixando localmente apenas os mais acessados. Mesmo assim, caso eu precise acessar algum arquivo na nuvem e baixá-lo, isso poderá ser feito sem nenhuma lentidão, quase imperceptivel ao usuário de que aquele arquivo acaba de ser baixado.
+
