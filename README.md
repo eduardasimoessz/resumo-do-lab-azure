@@ -53,3 +53,6 @@ AZ-Copy: Faz a cópia de arquivos locais para o Ambiente de Nuvem da Azure. Sinc
 Gerenciador de armazenamento Azure: Interface Gráfica Intuitiva para o usuário (MacOS, Linus e Windows)
 Sincronização de Arquivos do Azure: Sincronização de forma Bilateral, ou seja, ele pode ser configurado para enviar arquivos menos acessados para a nuvem, deixando localmente apenas os mais acessados. Mesmo assim, caso eu precise acessar algum arquivo na nuvem e baixá-lo, isso poderá ser feito sem nenhuma lentidão, quase imperceptivel ao usuário de que aquele arquivo acaba de ser baixado.
 
+## Entrega do Desafio - Entendendo sobre Segurança e Identidade na Azure
+
+Foi expliccado neste tópico a respeito do Entra ID, antigo Active Directory, e com este assunto, foi abordado pontos de autenticação, autorização, identidade, MFA, SSO, entre muitos outros recursos disponíveis para a segurança e acesso na Nuvem do Azure.
