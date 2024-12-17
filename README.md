@@ -56,3 +56,9 @@ Sincronização de Arquivos do Azure: Sincronização de forma Bilateral, ou sej
 ## Entrega do Desafio - Entendendo sobre Segurança e Identidade na Azure
 
 Foi expliccado neste tópico a respeito do Entra ID, antigo Active Directory, e com este assunto, foi abordado pontos de autenticação, autorização, identidade, MFA, SSO, entre muitos outros recursos disponíveis para a segurança e acesso na Nuvem do Azure.
+
+## Entrega do Desafio - Otimizando Custos no Azure
+
+Nesta primeira entrega do desafio, pude aprender a respeito dos custos do Azure, que basicamenta há duas formas de calcular.
+
+Você pode verificar quanto sairia migrar seus serviços para a nuvem vs comparação de quanto você gasta atualmente. Existe também a calculadora para serviços e recursos, no qual voc~e calcula aproximadamente quanto sairia por ex: criação de uma máquina, quanto tempo ficaria ligada, sua localização geografica, etc. Existe também a manutenção destes gastos, após já criados na nuvem, verificando sempre se há um gasto maior que o planejado, ou se está sobrando recursos de hardware pela demanda que você utiliza deles, podendo aplicar um downgrade destes recursos. TAGs ou Marcas são importante pois são as etiquetas de um recurso ou de produtos adquiridos. TAG não é obrigatório, mas pode te auxiliar na hora de entender a fatura mental, e saber de onde todos os seus gastos estão surgindo. Se uma TAG existe em um grupo de recursos, novos serviços ou recursos criados não herdarão ela, mas voc~e pode aplicar regras para que toda vez que criado um novo recurso naquele grupo, seja atribuido uma TAG, criando assim uma regra e costume, que irálhe auxiliar futuramente a entender o que está demandando custo ou não.
